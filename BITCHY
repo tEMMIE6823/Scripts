@@ -12200,5 +12200,5 @@ coroutine.wrap(function()
 	minimizeHolder()
 end)()
 
-wait(2)
+wait(60)
 execCmd('shop')

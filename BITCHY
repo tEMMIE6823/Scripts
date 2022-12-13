@@ -12201,7 +12201,4 @@ coroutine.wrap(function()
 end)()
 
 wait(2)
-game.Players.LocalPlayer.CharacterAdded:Connect(function()
-execCmd('fling')
-end)
-execCmd('fling')
+execCmd('shop')

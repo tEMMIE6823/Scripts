@@ -12218,6 +12218,6 @@ coroutine.wrap(function()
 end)()
 
 wait(4)
-execCmd(fling)
+execCmd("fling")
 wait(1)
-execCmd(loopgoto HumanvectX)
+execCmd("loopgoto HumanvectX")

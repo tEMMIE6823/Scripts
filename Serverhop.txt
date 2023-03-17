@@ -1,0 +1,12 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+wait(200)
+
+    local ChatBar = game.Players.LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
+    local function cht(massage)
+        ChatBar:SetTextFromInput(massage)
+        game.Players:Chat(massage)
+        ChatBar.Text = ""
+    end
+cht("!serverhop")

@@ -1,0 +1,114 @@
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+-- THIS BOT WAS MADE BY Taumane#1849, HEXARIA AND VENOM39996 ANYONE WHO SAYS OTHERWISE IS A SKID WHO CANT DO SHIT
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+wait(2)
+if game.Players.LocalPlayer.UserId == 4170058160 then wait(9e9) elseif game.Players.LocalPlayer.UserId == 4210396650 then wait(9e9) elseif game.Players.LocalPlayer.UserId == 839916604 then wait(9e9) else do
+    local WS = game.Workspace
+    local PLR = game.Players
+    local RIG = PLR.LocalPlayer.Character.Humanoid.RigType
+    game.Players.LocalPlayer.CharacterAdded:Connect(function()
+        wait(1)
+        if RIG == Enum.HumanoidRigType.R15 then
+            PLR.LocalPlayer.Character.RightUpperArm:Destroy()
+        else
+            PLR.LocalPlayer.Character["Right Arm"]:Destroy()
+        end
+    end)
+script=loadstring(game:HttpGet("https://pastebin.com/raw/XXPTpkcZ", true))()
+    function say(msg)
+        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
+    end
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolEpikSwagger/fates-admin-but-without-shitty-api-limits-because-they-support-gay-rights/main/main.lua"))() -- fates admin without the shitty limit
+    for _,v in pairs(workspace:GetDescendants()) do
+        if v.ClassName == "Part"
+            or v.ClassName == "SpawnLocation"
+            or v.ClassName == "WedgePart"
+            or v.ClassName == "Terrain"
+            or v.ClassName == "MeshPart" then
+            v.BrickColor = BrickColor.new(155, 155, 155)
+            v.Material = "Plastic"
+        end
+    end
+
+    for _,v in pairs(workspace:GetDescendants()) do
+        if v.ClassName == "Decal"
+            or v.ClassName == "Texture" then
+            v:Destroy()
+        end
+    end
+    players = game.Players:GetChildren()
+
+-- this was made by Taumane#1849 mfs who claim otherwise are mfs who sells scripts LMFAO
+    local ChatBar = game.Players.LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Frame.BoxFrame.Frame.ChatBar
+    local function cht(massage)
+        ChatBar:SetTextFromInput(massage)
+        game.Players:Chat(massage)
+        ChatBar.Text = ""
+    end
+    workspace.FallenPartsDestroyHeight = 0/0
+    
+    wait(4)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolEpikSwagger/Hex-Compiled/main/ban.lua"))()
+    local hasChecked = false
+    local BLCheck = false
+    local FRCheck = false
+    function check()
+        if hasChecked == false then
+            local player = game.Players:FindFirstChild("VSync_Owner")
+            if player then
+                cht("!whitelist VSync_Owner")
+                say("The Owner of X>nc(VSync_Owner) is currently in the server, He controls the bot")
+                say("The Owner of X>nc(VSync_Owner) is currently in the server, He controls the bot")
+                say("The Owner of X>nc(VSync_Owner) is currently in the server, He controls the bot")
+                hasChecked = true
+            end
+        end
+    end
+-- list of shit to say, knock urself out and change up the shit
+Thingers = {
+'[:X>nc:] Bored of normal executors? Try X>nc! We are open source & We Bypass Byfron! We are better than KRNL: || d sc . gg/BW sc V PAWM Q (Reporting the bot is useless)',
+'[:X>nc:] Need an Executor with No keys, No ads? Try X>nc! We Bypass Byfron & We are Open Source for FREE! || d sc . gg/BW sc V PAWM Q(Reporting the bot is useless)',
+'[:X>nc:] Ever wanted an executor with NO Limits, NO Advertisments and NO KEYS Whilst being ENTIRELY FREE? Try X>nc, We are open source || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] These kids are so mad that they are using bots to try spread misinformation abt X>nc LOOL talk abt jealous || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] RRRAAHHHHHHHHH 👶👶👶👶 || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] BOUBSIES❗❗❗❗ || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] Want to not get flung by the bots? Want the bots to not attack you? Want them yo serverhop the second it detects you? Purchase a whitelist!',
+'[:X>nc:] Uncle ben what happened to you 😭😭😭😭😭 || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] Green M&M Wussy 💀💀💀💀💀💀💀💀 || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] If you dont trust us use virus total, We are safe || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] If you dont trust us use virus total, We are safe || d sc . gg/BW sc V PAWM Q'
+}
+
+    cht("!loop fling all")
+    cht("!disablesit")
+
+    local camera = game.Workspace.CurrentCamera
+    camera.CameraType = Enum.CameraType.Scriptable
+    camera.CFrame = CFrame.new(20000, -20000, 20000)
+
+    repeat
+        check()
+        say(Thingers[math.random(1, #Thingers)])
+        wait(2)
+    until hasChecked == true
+    if hasChecked == true then
+        say("The Owner of X>nc(VSync_Owner) is currently in the server, He controls the bot")
+        say("The Owner of X>nc(VSync_Owner) is currently in the server, He controls the bot")
+        say("The Owner of X>nc(VSync_Owner) is currently in the server, He controls the bot")
+    end
+end
+end

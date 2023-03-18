@@ -9,4 +9,4 @@ wait(200)
         game.Players:Chat(massage)
         ChatBar.Text = ""
     end
-cht("!serverhop")
+cht("]serverhop")

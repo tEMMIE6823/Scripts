@@ -108,7 +108,7 @@ local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
 function savegpu()
-setfpscap(10)
+setfpscap(17)
 screenSaver.Enabled = true
 RunService:Set3dRenderingEnabled(false)
 end

